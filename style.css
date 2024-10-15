@@ -78,6 +78,9 @@ body {
 .dropdown_menu.open{
     height: 300px;
 }
+.dropdown_menu.open li a{
+    display: block;
+}
 
 .dropdown_menu li{
     padding: 0.7rem;
@@ -87,6 +90,7 @@ body {
 }
 
 .dropdown_menu li a{
+    display: none;
     text-decoration: none;
     list-style: none;
     color: white;
@@ -106,7 +110,9 @@ body {
     .sidebar .links-sidebar .toggle_btn {
         display: block;
     }
-
+    .dropdown_menu li a{
+        display: none;
+    }
     .dropdown_menu{
         display: block;
     }
