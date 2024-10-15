@@ -14,7 +14,7 @@ main{
 }
 
 .carrossel-principal{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -29,7 +29,6 @@ main{
 .content-section{
     display: flex;
     justify-content: space-between;
-    gap: 5vw;
     height: 100%;
     clear: both;
 }
@@ -105,5 +104,19 @@ main{
 .titulo{
     padding-top: 50px;
     margin-top: -40px;
+    margin-bottom: 3%;
 }
 
+.carousel-1980{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-1980 > div{
+    width: 60%;
+    height: auto;
+}
