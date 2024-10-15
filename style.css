@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    background: #f0f0f0;
+    min-height: 200vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/IMAGES/img-frente-01.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 2000px 40px rgba(0, 0, 0, 0.6);
+
+}
+
+.banner>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner .banner-titulo {
+    width: 70%;
+}
+
+.banner .banner-titulo h1 {
+    font-size: 3rem;
+    color: #ffd700;
+}
+
+
+.links-sidebar .toggle_btn {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+.links-sidebar .toggle_btn::before{
+    content: "";
+    top: 0%;
+    left: -50%;
+    position: absolute;
+    background: rgb(28, 141, 0);
+    border-radius: 50px;
+    z-index: -5;
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 50vw;
+    height: 0;
+    background:rgb(28, 141, 0); 
+    border-radius: 10px;
+    overflow: visible;
+    z-index:9999;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 300px;
+}
+
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 982px) {
+    .sidebar .links-sidebar .links-ul {
+        display: none;
+    }
+
+    .sidebar .links-sidebar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+    header .logo img {
+        width: 15vh;
+    }
+
+    header.sticky {
+        padding: 0 30px;
+    }
+
+    .titulo{
+        padding-top: 20%;
+        margin-top: -7%;
+    }
+}

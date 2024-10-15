@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-main{
-    min-height: 200vh;
-}
-
 .historia{
     display: flex;
     align-items: center;
@@ -46,6 +42,9 @@ main{
     margin-top: -20px;
 }
 
+.links-sidebar{
+    position: relative;
+}
 .links-sidebar ul{
     padding-left: 50px;
     position: relative;
@@ -102,9 +101,13 @@ main{
 } */
 
 .titulo{
-    padding-top: 50px;
-    margin-top: -40px;
+    padding-top: 9%;
+    margin-top: -7%;
     margin-bottom: 3%;
+}
+.historia-titulo{
+    padding-top: 20px;
+    margin-top: -20px;
 }
 
 .carousel-1980{

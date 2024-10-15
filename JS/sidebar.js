@@ -40,7 +40,7 @@
             sections.forEach((section) => {
                 const sectionTop = section.offsetTop;
 
-                if (scrollY >= sectionTop - 60) {
+                if (scrollY >= sectionTop - 260) {
                     current = section.getAttribute('id');
                 }
             });
