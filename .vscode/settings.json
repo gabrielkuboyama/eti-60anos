@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": [],
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/c79c9ac6-c9d9-4d2d-8ff8-ad1452e2b7c1/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/etelg-60anos",
+    "appService.deploySubpath": "."
+}

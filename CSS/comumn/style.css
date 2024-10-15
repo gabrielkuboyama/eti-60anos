@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    background: #fff;
+    min-height: 200vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/IMAGES/img-frente-01.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 2000px 40px rgba(0,0,0,0.6);
+
+}
+.banner > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner .banner-titulo{
+    width: 70%;
+}
+.banner .banner-titulo h1{
+    font-size: 3rem;
+    color: #ffd700;
+}
+
+@media (max-width: 700px){
+    .sidebar{
+        display: none;
+    }
+}
