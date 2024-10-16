@@ -1,0 +1,36 @@
+footer{
+    background: #0f7e00;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content{
+    width: 100vw;
+    padding: 10px 10px;
+}
+
+.footer-content div{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+
+}
+
+.footer-content .titulo-footer{
+    position: relative;
+}
+
+.footer-content .titulo-footer::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(226, 136, 0);
+    width: 42%;
+    height: 3px;
+}
+
+.footer-content .titulo-info-footer{
+    font-weight: 500;
+
+    color: rgb(241, 171, 66);
+}

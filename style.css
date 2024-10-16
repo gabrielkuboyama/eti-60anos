@@ -11,6 +11,9 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+a{
+    cursor: pointer;
+}
 
 .banner {
     position: relative;
